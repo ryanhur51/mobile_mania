@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../lib/libext_convertUTF.a CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../lib/libext_convertUTF.a

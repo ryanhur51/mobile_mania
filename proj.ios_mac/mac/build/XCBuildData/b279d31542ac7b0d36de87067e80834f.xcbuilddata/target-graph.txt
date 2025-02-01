@@ -1,0 +1,64 @@
+Target dependency graph (15 targets)
+Target 'ALL_BUILD' in project 'mobile_mania'
+➜ Explicit dependency on target 'mobile_mania' in project 'mobile_mania'
+➜ Explicit dependency on target 'cocos2d' in project 'mobile_mania'
+➜ Explicit dependency on target 'external' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_recast' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_tinyxml2' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxhash' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxtea' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_clipper' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_edtaa3func' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_convertUTF' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_poly2tri' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_md5' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_unzip' in project 'mobile_mania'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'mobile_mania'
+Target 'mobile_mania' in project 'mobile_mania'
+➜ Explicit dependency on target 'cocos2d' in project 'mobile_mania'
+➜ Explicit dependency on target 'external' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_recast' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_tinyxml2' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxhash' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxtea' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_clipper' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_edtaa3func' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_convertUTF' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_poly2tri' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_md5' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_unzip' in project 'mobile_mania'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'mobile_mania'
+Target 'ZERO_CHECK' in project 'mobile_mania' (no dependencies)
+Target 'cocos2d' in project 'mobile_mania'
+➜ Explicit dependency on target 'external' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_recast' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_tinyxml2' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxhash' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxtea' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_clipper' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_edtaa3func' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_convertUTF' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_poly2tri' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_md5' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_unzip' in project 'mobile_mania'
+Target 'external' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_recast' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_tinyxml2' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxhash' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_xxtea' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_clipper' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_edtaa3func' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_convertUTF' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_poly2tri' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_md5' in project 'mobile_mania'
+➜ Explicit dependency on target 'ext_unzip' in project 'mobile_mania'
+Target 'ext_unzip' in project 'mobile_mania' (no dependencies)
+Target 'ext_md5' in project 'mobile_mania' (no dependencies)
+Target 'ext_poly2tri' in project 'mobile_mania' (no dependencies)
+Target 'ext_convertUTF' in project 'mobile_mania' (no dependencies)
+Target 'ext_edtaa3func' in project 'mobile_mania' (no dependencies)
+Target 'ext_clipper' in project 'mobile_mania' (no dependencies)
+Target 'ext_xxtea' in project 'mobile_mania' (no dependencies)
+Target 'ext_xxhash' in project 'mobile_mania' (no dependencies)
+Target 'ext_tinyxml2' in project 'mobile_mania' (no dependencies)
+Target 'ext_recast' in project 'mobile_mania' (no dependencies)

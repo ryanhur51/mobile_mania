@@ -1,0 +1,101 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "66d051e404fad900a96becf09a05d0786cc54b708513b747c654b0a875b8b42f"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d0789b038fdfb4c55f14ec80e11a3530b909"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d07801e21871cbedcb6bf0fa1770b4f8b799"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d078e8822a668f06e25b206721b5aca924a7"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d07805629abc2e64342be9893fbe9fb09cb9"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d07880a8558f0b51543b1c4da959890427e6"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d07889e0b52e4c1bcdaccadc7266712d703a"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d078a19d107291cb3374e3eccc2311ef5b55"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d078307c88b3e866cd656e856ed5dee4fc4b"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d078ff2b5d21f52f15c324c6a2b8be9dba8c"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d0787a72828b49ab76d601a2e1d34a89b831"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d07866261cadfac91222faab2cb9c6cd42c1"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d07861d420d8b2b1ce32e0903d7987dfe2fa"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d078fd3aa8419dfb3673e3ea42b54c1b2712"
+    },
+    {
+      "guid" : "66d051e404fad900a96becf09a05d078179b64dc112d19b22e05182399aa5b4f"
+    }
+  ],
+  "containerPath" : "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/mobile_mania.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx15.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/ryanhur/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ryanhur/Library/Developer/Xcode/DerivedData/mobile_mania-gkwjanwgiqnyojapwycqsaawrhcu/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ryanhur/Library/Developer/Xcode/DerivedData/mobile_mania-gkwjanwgiqnyojapwycqsaawrhcu/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

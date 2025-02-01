@@ -1,0 +1,2947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4C4B210364B582A35FAF26C4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C00466A293294CC993BBF6F8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				58D35A39D37AE741EFD08469 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				AFA91C7E322E4273B6FBB378 /* PBXTargetDependency */,
+				5B4A18BFFA934D9BA271A185 /* PBXTargetDependency */,
+				9A3FD2BF1FB54FBC9FA38BFB /* PBXTargetDependency */,
+				34B4D4A449384E1B923AF865 /* PBXTargetDependency */,
+				9880E5D184E742CBA998C4B2 /* PBXTargetDependency */,
+				A0ED8AB26D1B45A6BD6EB770 /* PBXTargetDependency */,
+				A786B222093F4763BD3C580A /* PBXTargetDependency */,
+				2D7B5549998B4A7EBF55152E /* PBXTargetDependency */,
+				AE4DF3D1C45744949E9E115F /* PBXTargetDependency */,
+				A72AB86ADC2E404AA6A67067 /* PBXTargetDependency */,
+				05A07FFB7D7B4914B9793A3F /* PBXTargetDependency */,
+				402FDF3838874286B881EC44 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		828A8C0A783904490416158A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02EB60779726445895CCC276 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FF8831A61CB4D4D2BFCC65BA /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00A76A4C9E9E44A687D14180 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 4AAA5842B633459F81D13165 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/common/shapes.cc */; };
+		068C45E889F14F838130BCB0 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E55B52EA94C04ED0AC1A8FBE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/CMakeLists.txt */; };
+		1BE4AEFEFBFA4D93AA7783F0 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = A5E6C606853542ADA8B1500A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		242968371E364286AE9451FF /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = BABE21F003494207B2C81C76 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		262886AB843B4BC1808BE201 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 653D29A2F7B04C66854339CF /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/clipper.cpp */; };
+		26F8F3AECB664AE2A5831AD9 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = AAA3F03D8F1B4241A80E85E8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		2BB2DBD60C524DE2850DE7EE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 86898C2B006446049D07C0AA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		3454F156DB8D44A4BF005399 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 2EE28631CA604711ABAF29E1 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/xxhash.c */; };
+		3608FFEC8AFD45C6972A09E6 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BC6AFA0E055F4987B333406D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		384B20BCD4AD453FAC8556CA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1609D1A037DE49E5AE5E1E83 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/CMakeLists.txt */; };
+		3936347C5BC24EFA893E8FF9 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 87CC6BF6C4924D088CC6D12A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/CMakeLists.txt */; };
+		3DBA17263E1949C2B51FBD95 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 06CC2A6EE30C4642A1D66ECA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		40D9E5E425F14FC7AA45E735 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 9D5123FE320F43288AA02D64 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		43C8870835564C72806045D2 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E70AD80501094711944DB0AA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/CMakeLists.txt */; };
+		47F7CE2A19A5452D84066DCD /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = A90B3E10C6B1489DB92C1298 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		51B8086200D6444B83C5C2EB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = B3BCFF3C7D434A70BF20A52D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		5BDAEC7804C44CCBAE55203E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = FB2996FB80614534BC81D9F7 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		6042419C2FF649F6A7A2D371 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = B18D86751FEF48039C836CFB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		70AC1900FF774E779CA25246 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 399D7875B5984601A307F4E8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		71494280704A48CAB147DC18 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 545B8E60959A4E69ACF988F3 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		7975F1345239407F9F122619 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 120B959B009147C597C97E33 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		7DA02ACE9DF94EDB8B46FDD1 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 9E5F901D2BA745C28EB55974 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/md5.c */; };
+		828DF00F5E9C4B9686DBACC4 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 3C2F2144CB0B45859A3D1D3D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		8531E9AEBD64411080696C7A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = A124C518EF94455D924BD783 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/fastlz/fastlz.c */; };
+		857708C2389449E1AF456D4A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = F3F28566036D47DDB9B34CA5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		95769ACBDD06443C92DA1201 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = F8D4BCED1B174F2F9D6519CE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/unzip.cpp */; };
+		95BBF1D250D1470596E3814E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D2E7CEA70D444E7CA54D523C /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/CMakeLists.txt */; };
+		96A708D018984C248A4FC683 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = 6955F975713345718B2F4E00 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi.cpp */; };
+		97E97742303D45D18C9CF3A6 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 039635EEC6C845ECB21CB331 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/CMakeLists.txt */; };
+		9C931A857CB64E51A68FBF18 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = EA0F7C2E01A642E7B7170F35 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		A3E74B9FFD1A4CA1A7022892 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 52FB0C8CC6424F3CA1E7AA32 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		A476268FF95F4A64802E3E1B /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 3E4941CD34F54FC2838B09B7 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		B1DA65103BC94158B0403061 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 580F859219F2451CAC762B54 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		BF17C089EEF6458AA68107D8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = A7A51020604D4A1B92D78B8E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		BFD5EC0178E94DC3BD956325 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 90EC364BF0164EB09DF73072 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		D5A1E533D7AA4E159DF837B2 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 820D21F0EC2642149F8C3992 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		D7B15C555408405285226F21 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = DEB1676710A54A92B8860B96 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		D80062E7D06244B4A2B3E9C0 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2F8C0A2666E24B70A9CD89CD /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		D86FB43A675042B9A2C279FB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 101E4E9A49E345CA8890437F /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/empty.cpp */; };
+		ED39B322ED924956AD58FAD5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 5011C56E5A354CDA9F9F1412 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/xxtea.cpp */; };
+		EFD479137EF3453F8FD7A7D2 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 4D53F6A51E294427A8859982 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		F1F0B9086C5B465A87BAF176 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A0D09A6D0C2A41E1ABF4C883 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/CMakeLists.txt */; };
+		F21E4E4B0F1E4978BCAB4CE5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = B83D0EBB3AA24B51BC0D085E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		F2DCF8324F654351B2391E7B /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7117E13694114EE3AC215521 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		F79406E13D76407294DBC304 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BDF33596D3F34BACB3E85327 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		25963FACD5E841A69AD763DE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6B3CCF5FA94C4995AC943C75 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		89A6DE9337DE4B30BB062811 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A03DEB53EE1840B0BDF81DF5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0420993DAB4A4D71BDC65227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF81E539502ECFFAF8104DB2;
+			remoteInfo = ext_md5;
+		};
+		06EAE72AF7C84F32946E2A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB958C9CE1D490C3D6FD6306;
+			remoteInfo = ext_clipper;
+		};
+		207C3EED2DFE44349C44F9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339CFEA6C229DFD2C0DB7DCB;
+			remoteInfo = ext_poly2tri;
+		};
+		37B30D326D124F7D97EA5CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEF6EE7B9B1C7DA69210F32;
+			remoteInfo = ext_edtaa3func;
+		};
+		3DBA6D525CD841A18CE661D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8EA59D036445D25CCFDD5A;
+			remoteInfo = ext_recast;
+		};
+		406536A478BA4E5E87F426EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29009F96BC6634827BF464DC;
+			remoteInfo = external;
+		};
+		48FC29B517EE4EA3907B05E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB958C9CE1D490C3D6FD6306;
+			remoteInfo = ext_clipper;
+		};
+		4E6ED161F9AE418EBAD7805F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339CFEA6C229DFD2C0DB7DCB;
+			remoteInfo = ext_poly2tri;
+		};
+		523E7BE6018A4F5BA3894056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828A8C0A783904490416158A;
+			remoteInfo = ZERO_CHECK;
+		};
+		6730BCC43BC84B85A78F21BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893D3714EDE99FA99EACEB28;
+			remoteInfo = ext_xxtea;
+		};
+		67AE15731FAF4CE4AD900072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8EA59D036445D25CCFDD5A;
+			remoteInfo = ext_recast;
+		};
+		6F86CF9B702D4FC99E4B7226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893D3714EDE99FA99EACEB28;
+			remoteInfo = ext_xxtea;
+		};
+		84365C0B85BF451E9E40BA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEF6EE7B9B1C7DA69210F32;
+			remoteInfo = ext_edtaa3func;
+		};
+		974CAEB832AC47C293EF6B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337348E64810651ABB42F85D;
+			remoteInfo = ext_tinyxml2;
+		};
+		9BE0004086254D18A057D2C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337348E64810651ABB42F85D;
+			remoteInfo = ext_tinyxml2;
+		};
+		9E27DDCB321E463D8F5EAB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F794C984BE34C9D1E38630;
+			remoteInfo = ext_unzip;
+		};
+		9EE8CAFDE53145EE9C53A6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828A8C0A783904490416158A;
+			remoteInfo = ZERO_CHECK;
+		};
+		BA34D67291F342F5ADABBA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580144BF421D5CADB6256527;
+			remoteInfo = ext_convertUTF;
+		};
+		C0BD1341BF594A3FA7D26E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA33FBEF8E74B11A2F222A1;
+			remoteInfo = ext_xxhash;
+		};
+		C77120D2882645D0B285FEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F794C984BE34C9D1E38630;
+			remoteInfo = ext_unzip;
+		};
+		D0D3123A36DA4A98B4BFB550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF81E539502ECFFAF8104DB2;
+			remoteInfo = ext_md5;
+		};
+		EB03B9FB56F74E62BF2A3B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580144BF421D5CADB6256527;
+			remoteInfo = ext_convertUTF;
+		};
+		ED672C3F663A40B2BB98A1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7AF34236E3428CB2714ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA33FBEF8E74B11A2F222A1;
+			remoteInfo = ext_xxhash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038F62E335024F13AD020B4C /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		039635EEC6C845ECB21CB331 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		06CC2A6EE30C4642A1D66ECA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		101E4E9A49E345CA8890437F /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		120B959B009147C597C97E33 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		1609D1A037DE49E5AE5E1E83 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2EE28631CA604711ABAF29E1 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		2F8C0A2666E24B70A9CD89CD /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		343AA4C6CBDC46BFB263123B /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		399D7875B5984601A307F4E8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		3C2F2144CB0B45859A3D1D3D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		3E4941CD34F54FC2838B09B7 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		4AAA5842B633459F81D13165 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		4D53F6A51E294427A8859982 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		5011C56E5A354CDA9F9F1412 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		505B53CA19ED46A287F442B2 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB0C8CC6424F3CA1E7AA32 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		545B8E60959A4E69ACF988F3 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		580F859219F2451CAC762B54 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		653D29A2F7B04C66854339CF /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		6955F975713345718B2F4E00 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		6CEE2C1DD8D644BFA863D422 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7117E13694114EE3AC215521 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		77FBE9B21E844BC3A52677BE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DF411EE8D5A40CDBBFE1C18 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F184AB4F46B40B8B69462AE /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		820D21F0EC2642149F8C3992 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		86898C2B006446049D07C0AA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		87CC6BF6C4924D088CC6D12A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		90EC364BF0164EB09DF73072 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		9396731CE1164C5AABD0A549 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5123FE320F43288AA02D64 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		9E5F901D2BA745C28EB55974 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		A0D09A6D0C2A41E1ABF4C883 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A124C518EF94455D924BD783 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		A5E6C606853542ADA8B1500A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		A7A51020604D4A1B92D78B8E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		A90B3E10C6B1489DB92C1298 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		AAA3F03D8F1B4241A80E85E8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		B18D86751FEF48039C836CFB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		B3BCFF3C7D434A70BF20A52D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		B83D0EBB3AA24B51BC0D085E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		BABE21F003494207B2C81C76 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		BB419FA779D345F6AA198F91 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6AFA0E055F4987B333406D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BDF33596D3F34BACB3E85327 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C040D652657849CFBA4626AC /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78A5909E6C74B5EB0773ECB /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E7CEA70D444E7CA54D523C /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DEB1676710A54A92B8860B96 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		E55B52EA94C04ED0AC1A8FBE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E70AD80501094711944DB0AA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EA0F7C2E01A642E7B7170F35 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		EF9F95BB826F4B6ABF69EDB4 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F28566036D47DDB9B34CA5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		F8D4BCED1B174F2F9D6519CE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		FB2996FB80614534BC81D9F7 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5586D917394426952E26CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DA96C4D4DFF4620871AD40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C18542194F240FCAB840D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B667F11234511B79BECF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6816CD5DEC3D41A0B9E9475F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C610480AFBE4F6599E00837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1547973D3245F9BFBCC7EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38AC585FB5C410D913B728F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9628AC18E4C4E8EAF699FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BFDE4DFD3F4641A0ADE635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A046E3A0FB457B81F68156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A80A07DA16B4B22B01134D2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				792A16132FBC43B4B8A26234 /* CMake Rules */,
+				77FBE9B21E844BC3A52677BE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		11D1875CB8AD4E5CA19E591F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1AF6B969A8524D2A82FA31BE /* external */ = {
+			isa = PBXGroup;
+			children = (
+				E54DA2B67AC345E09391F21A /* Source Files */,
+				87CC6BF6C4924D088CC6D12A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		242B6F3406464585B59357BE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5123FE320F43288AA02D64 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				AAA3F03D8F1B4241A80E85E8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		25BB4499D1B4419AA23560A2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				820D21F0EC2642149F8C3992 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2789EDB1785042DABFCEDC96 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				5868D90A8B644BA0BDAEB4EC /* Source Files */,
+				BC6AFA0E055F4987B333406D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		39816E92441A491A9261DB74 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				535E5472AD08407FA39015F2 /* Source Files */,
+				A0D09A6D0C2A41E1ABF4C883 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		46A0E074D3124E55BFB46D4F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				1AF6B969A8524D2A82FA31BE /* external */,
+				C9E09092894346EF898E95F4 /* ext_recast */,
+				B926F2842EA4446D958AC30F /* ext_tinyxml2 */,
+				8E33FA75F74C410E818E6BA7 /* ext_xxhash */,
+				B5EF00E026454C13BC90619C /* ext_xxtea */,
+				39816E92441A491A9261DB74 /* ext_clipper */,
+				6B0633065A44442D9C979406 /* ext_edtaa3func */,
+				A8726E7006C146A19A5E57C4 /* ext_convertUTF */,
+				2789EDB1785042DABFCEDC96 /* ext_poly2tri */,
+				DAF888426E4146C794C2A1B4 /* ext_md5 */,
+				D81BE3458E1342D090380DBA /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		535E5472AD08407FA39015F2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				653D29A2F7B04C66854339CF /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5868D90A8B644BA0BDAEB4EC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA5842B633459F81D13165 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/common/shapes.cc */,
+				B18D86751FEF48039C836CFB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				DEB1676710A54A92B8860B96 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				580F859219F2451CAC762B54 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				399D7875B5984601A307F4E8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		618EEDE1434A465C858FF1A1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABE21F003494207B2C81C76 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				545B8E60959A4E69ACF988F3 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				4D53F6A51E294427A8859982 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				A5E6C606853542ADA8B1500A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				FB2996FB80614534BC81D9F7 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				3E4941CD34F54FC2838B09B7 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				90EC364BF0164EB09DF73072 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				A7A51020604D4A1B92D78B8E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				120B959B009147C597C97E33 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				52FB0C8CC6424F3CA1E7AA32 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				86898C2B006446049D07C0AA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				A90B3E10C6B1489DB92C1298 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				EA0F7C2E01A642E7B7170F35 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				06CC2A6EE30C4642A1D66ECA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				3C2F2144CB0B45859A3D1D3D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				B3BCFF3C7D434A70BF20A52D /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				A124C518EF94455D924BD783 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6B0633065A44442D9C979406 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				A96ED45EF7EC4D68BDC64F5E /* Source Files */,
+				BDF33596D3F34BACB3E85327 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		792A16132FBC43B4B8A26234 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7E4614F27CE3487C83CAC826 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6955F975713345718B2F4E00 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi.cpp */,
+				F3F28566036D47DDB9B34CA5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi_mem.cpp */,
+				F8D4BCED1B174F2F9D6519CE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8E33FA75F74C410E818E6BA7 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				A7ECF40EEE11498A930A1844 /* Source Files */,
+				039635EEC6C845ECB21CB331 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		98AF917E7EDC42C392063DCE = {
+			isa = PBXGroup;
+			children = (
+				46A0E074D3124E55BFB46D4F /* External */,
+				0A80A07DA16B4B22B01134D2 /* ALL_BUILD */,
+				FDB798F75A674BF6B08911E7 /* Products */,
+				E76A33CB50104197B1151F3E /* Frameworks */,
+				11D1875CB8AD4E5CA19E591F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A7ECF40EEE11498A930A1844 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE28631CA604711ABAF29E1 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A8726E7006C146A19A5E57C4 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				242B6F3406464585B59357BE /* Source Files */,
+				2F8C0A2666E24B70A9CD89CD /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		A96ED45EF7EC4D68BDC64F5E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83D0EBB3AA24B51BC0D085E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B5EF00E026454C13BC90619C /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				D148C5D405044D479E189F14 /* Source Files */,
+				1609D1A037DE49E5AE5E1E83 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		B926F2842EA4446D958AC30F /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				25BB4499D1B4419AA23560A2 /* Source Files */,
+				7117E13694114EE3AC215521 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		C9E09092894346EF898E95F4 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				618EEDE1434A465C858FF1A1 /* Source Files */,
+				D2E7CEA70D444E7CA54D523C /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		D148C5D405044D479E189F14 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5011C56E5A354CDA9F9F1412 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D81BE3458E1342D090380DBA /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				7E4614F27CE3487C83CAC826 /* Source Files */,
+				E55B52EA94C04ED0AC1A8FBE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		DA93667D391544F3926D7B11 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F901D2BA745C28EB55974 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DAF888426E4146C794C2A1B4 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				DA93667D391544F3926D7B11 /* Source Files */,
+				E70AD80501094711944DB0AA /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		E54DA2B67AC345E09391F21A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				101E4E9A49E345CA8890437F /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E76A33CB50104197B1151F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDB798F75A674BF6B08911E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9396731CE1164C5AABD0A549 /* ext_clipper */,
+				7DF411EE8D5A40CDBBFE1C18 /* ext_convertUTF */,
+				C78A5909E6C74B5EB0773ECB /* ext_edtaa3func */,
+				038F62E335024F13AD020B4C /* ext_md5 */,
+				343AA4C6CBDC46BFB263123B /* ext_poly2tri */,
+				7F184AB4F46B40B8B69462AE /* ext_recast */,
+				BB419FA779D345F6AA198F91 /* ext_tinyxml2 */,
+				505B53CA19ED46A287F442B2 /* ext_unzip */,
+				C040D652657849CFBA4626AC /* ext_xxhash */,
+				6CEE2C1DD8D644BFA863D422 /* ext_xxtea */,
+				EF9F95BB826F4B6ABF69EDB4 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29009F96BC6634827BF464DC /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDD8FDAA47A4856A77E9301 /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				83431687536D4B58B41F4B52 /* Sources */,
+				2C18542194F240FCAB840D88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B47E15E0E9413B85B74A5F /* PBXTargetDependency */,
+				58A699B49B73456783D18956 /* PBXTargetDependency */,
+				2E5F08D3F6324D8FBECDFEA4 /* PBXTargetDependency */,
+				A16945BE12A94306B5FDB74C /* PBXTargetDependency */,
+				AACEAF65F4EB4C5090206AD4 /* PBXTargetDependency */,
+				0357CC01AB934A838CE7B4D5 /* PBXTargetDependency */,
+				AD7A0BE89BD44125B6F1C4F2 /* PBXTargetDependency */,
+				6A176C1EEC91457AB7D1356E /* PBXTargetDependency */,
+				AFE3C78C8FBB44968F9EC244 /* PBXTargetDependency */,
+				825114C54095441A8C8D34D4 /* PBXTargetDependency */,
+				3B2A01C6B40B42CAB91517CB /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = EF9F95BB826F4B6ABF69EDB4 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		337348E64810651ABB42F85D /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037B914DEBBC4421B263298F /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				FF0A349E3C1E442B89EB204E /* Sources */,
+				E0BFDE4DFD3F4641A0ADE635 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = BB419FA779D345F6AA198F91 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		339CFEA6C229DFD2C0DB7DCB /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD06A8375F04551AFFD6BF0 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				C52ED93B2D1A4EE7A1BDFE21 /* Sources */,
+				D9628AC18E4C4E8EAF699FCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 343AA4C6CBDC46BFB263123B /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		580144BF421D5CADB6256527 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3AF281F5C0426A9FEDD98A /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				1621DB9F6C6049058FF78545 /* Sources */,
+				6816CD5DEC3D41A0B9E9475F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 7DF411EE8D5A40CDBBFE1C18 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		893D3714EDE99FA99EACEB28 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393776301B7E42AFBCD340F0 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				957F6C4D2E9E4218A9D66F8C /* Sources */,
+				0B5586D917394426952E26CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 6CEE2C1DD8D644BFA863D422 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94F794C984BE34C9D1E38630 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67311FFAC3954498BAF894B2 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				2DDEC9A7E8424D9EB7307F9F /* Sources */,
+				E6A046E3A0FB457B81F68156 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 505B53CA19ED46A287F442B2 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB958C9CE1D490C3D6FD6306 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3B0FA179E5483F8FEDC111 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				290CB92011464494BA9FE89E /* Sources */,
+				476B667F11234511B79BECF7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 9396731CE1164C5AABD0A549 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD8EA59D036445D25CCFDD5A /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5F89D677454979B9551305 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				6D9A90FC30F54F55847EA9DB /* Sources */,
+				7A1547973D3245F9BFBCC7EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 7F184AB4F46B40B8B69462AE /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EAEF6EE7B9B1C7DA69210F32 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2744714DDDF04CF28A7F8F1C /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				4278F432A5574938AB552AC5 /* Sources */,
+				6C610480AFBE4F6599E00837 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = C78A5909E6C74B5EB0773ECB /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF81E539502ECFFAF8104DB2 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C3F0B6C64F41809C0192E9 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				5AFB83DCA2BE4851AC712FD3 /* Sources */,
+				0DA96C4D4DFF4620871AD40F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 038F62E335024F13AD020B4C /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBA33FBEF8E74B11A2F222A1 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932B0C0F04644B86A7A5A929 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				FAE217E864BC484981C393EA /* Sources */,
+				D38AC585FB5C410D913B728F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = C040D652657849CFBA4626AC /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7AF34236E3428CB2714ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = E6AB96947007403D8CD807FF /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				25963FACD5E841A69AD763DE /* Debug */,
+				89A6DE9337DE4B30BB062811 /* Release */,
+				A03DEB53EE1840B0BDF81DF5 /* MinSizeRel */,
+				6B3CCF5FA94C4995AC943C75 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 98AF917E7EDC42C392063DCE;
+			projectDirPath = /Users/ryanhur/Desktop/mobile_mania/cocos2d/external;
+			projectRoot = "";
+			targets = (
+				4C4B210364B582A35FAF26C4 /* ALL_BUILD */,
+				828A8C0A783904490416158A /* ZERO_CHECK */,
+				DB958C9CE1D490C3D6FD6306 /* ext_clipper */,
+				580144BF421D5CADB6256527 /* ext_convertUTF */,
+				EAEF6EE7B9B1C7DA69210F32 /* ext_edtaa3func */,
+				EF81E539502ECFFAF8104DB2 /* ext_md5 */,
+				339CFEA6C229DFD2C0DB7DCB /* ext_poly2tri */,
+				DD8EA59D036445D25CCFDD5A /* ext_recast */,
+				337348E64810651ABB42F85D /* ext_tinyxml2 */,
+				94F794C984BE34C9D1E38630 /* ext_unzip */,
+				FBA33FBEF8E74B11A2F222A1 /* ext_xxhash */,
+				893D3714EDE99FA99EACEB28 /* ext_xxtea */,
+				29009F96BC6634827BF464DC /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		58D35A39D37AE741EFD08469 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FF8831A61CB4D4D2BFCC65BA /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  make -f /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  make -f /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  make -f /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external
+  make -f /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1621DB9F6C6049058FF78545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D9E5E425F14FC7AA45E735 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				26F8F3AECB664AE2A5831AD9 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290CB92011464494BA9FE89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262886AB843B4BC1808BE201 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDEC9A7E8424D9EB7307F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A708D018984C248A4FC683 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi.cpp */,
+				857708C2389449E1AF456D4A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/ioapi_mem.cpp */,
+				95769ACBDD06443C92DA1201 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4278F432A5574938AB552AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21E4E4B0F1E4978BCAB4CE5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFB83DCA2BE4851AC712FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA02ACE9DF94EDB8B46FDD1 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9A90FC30F54F55847EA9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242968371E364286AE9451FF /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				71494280704A48CAB147DC18 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				EFD479137EF3453F8FD7A7D2 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				1BE4AEFEFBFA4D93AA7783F0 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				5BDAEC7804C44CCBAE55203E /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				A476268FF95F4A64802E3E1B /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				BFD5EC0178E94DC3BD956325 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				BF17C089EEF6458AA68107D8 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				7975F1345239407F9F122619 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				A3E74B9FFD1A4CA1A7022892 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				2BB2DBD60C524DE2850DE7EE /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				47F7CE2A19A5452D84066DCD /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				9C931A857CB64E51A68FBF18 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				3DBA17263E1949C2B51FBD95 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				828DF00F5E9C4B9686DBACC4 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				51B8086200D6444B83C5C2EB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				8531E9AEBD64411080696C7A /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83431687536D4B58B41F4B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86FB43A675042B9A2C279FB /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957F6C4D2E9E4218A9D66F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED39B322ED924956AD58FAD5 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52ED93B2D1A4EE7A1BDFE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A76A4C9E9E44A687D14180 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/common/shapes.cc */,
+				6042419C2FF649F6A7A2D371 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				D7B15C555408405285226F21 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				B1DA65103BC94158B0403061 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				70AC1900FF774E779CA25246 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE217E864BC484981C393EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454F156DB8D44A4BF005399 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A349E3C1E442B89EB204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A1E533D7AA4E159DF837B2 /* /Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0357CC01AB934A838CE7B4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEF6EE7B9B1C7DA69210F32 /* ext_edtaa3func */;
+			targetProxy = 37B30D326D124F7D97EA5CCD /* PBXContainerItemProxy */;
+		};
+		05A07FFB7D7B4914B9793A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F794C984BE34C9D1E38630 /* ext_unzip */;
+			targetProxy = 9E27DDCB321E463D8F5EAB8B /* PBXContainerItemProxy */;
+		};
+		2D7B5549998B4A7EBF55152E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580144BF421D5CADB6256527 /* ext_convertUTF */;
+			targetProxy = EB03B9FB56F74E62BF2A3B4A /* PBXContainerItemProxy */;
+		};
+		2E5F08D3F6324D8FBECDFEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA33FBEF8E74B11A2F222A1 /* ext_xxhash */;
+			targetProxy = ED672C3F663A40B2BB98A1B0 /* PBXContainerItemProxy */;
+		};
+		34B4D4A449384E1B923AF865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA33FBEF8E74B11A2F222A1 /* ext_xxhash */;
+			targetProxy = C0BD1341BF594A3FA7D26E59 /* PBXContainerItemProxy */;
+		};
+		3B2A01C6B40B42CAB91517CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828A8C0A783904490416158A /* ZERO_CHECK */;
+			targetProxy = 523E7BE6018A4F5BA3894056 /* PBXContainerItemProxy */;
+		};
+		402FDF3838874286B881EC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828A8C0A783904490416158A /* ZERO_CHECK */;
+			targetProxy = 9EE8CAFDE53145EE9C53A6A7 /* PBXContainerItemProxy */;
+		};
+		57B47E15E0E9413B85B74A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8EA59D036445D25CCFDD5A /* ext_recast */;
+			targetProxy = 3DBA6D525CD841A18CE661D0 /* PBXContainerItemProxy */;
+		};
+		58A699B49B73456783D18956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 337348E64810651ABB42F85D /* ext_tinyxml2 */;
+			targetProxy = 9BE0004086254D18A057D2C4 /* PBXContainerItemProxy */;
+		};
+		5B4A18BFFA934D9BA271A185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8EA59D036445D25CCFDD5A /* ext_recast */;
+			targetProxy = 67AE15731FAF4CE4AD900072 /* PBXContainerItemProxy */;
+		};
+		6A176C1EEC91457AB7D1356E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339CFEA6C229DFD2C0DB7DCB /* ext_poly2tri */;
+			targetProxy = 4E6ED161F9AE418EBAD7805F /* PBXContainerItemProxy */;
+		};
+		825114C54095441A8C8D34D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F794C984BE34C9D1E38630 /* ext_unzip */;
+			targetProxy = C77120D2882645D0B285FEC0 /* PBXContainerItemProxy */;
+		};
+		9880E5D184E742CBA998C4B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893D3714EDE99FA99EACEB28 /* ext_xxtea */;
+			targetProxy = 6F86CF9B702D4FC99E4B7226 /* PBXContainerItemProxy */;
+		};
+		9A3FD2BF1FB54FBC9FA38BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 337348E64810651ABB42F85D /* ext_tinyxml2 */;
+			targetProxy = 974CAEB832AC47C293EF6B33 /* PBXContainerItemProxy */;
+		};
+		A0ED8AB26D1B45A6BD6EB770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB958C9CE1D490C3D6FD6306 /* ext_clipper */;
+			targetProxy = 06EAE72AF7C84F32946E2A77 /* PBXContainerItemProxy */;
+		};
+		A16945BE12A94306B5FDB74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893D3714EDE99FA99EACEB28 /* ext_xxtea */;
+			targetProxy = 6730BCC43BC84B85A78F21BE /* PBXContainerItemProxy */;
+		};
+		A72AB86ADC2E404AA6A67067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF81E539502ECFFAF8104DB2 /* ext_md5 */;
+			targetProxy = D0D3123A36DA4A98B4BFB550 /* PBXContainerItemProxy */;
+		};
+		A786B222093F4763BD3C580A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEF6EE7B9B1C7DA69210F32 /* ext_edtaa3func */;
+			targetProxy = 84365C0B85BF451E9E40BA4A /* PBXContainerItemProxy */;
+		};
+		AACEAF65F4EB4C5090206AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB958C9CE1D490C3D6FD6306 /* ext_clipper */;
+			targetProxy = 48FC29B517EE4EA3907B05E8 /* PBXContainerItemProxy */;
+		};
+		AD7A0BE89BD44125B6F1C4F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580144BF421D5CADB6256527 /* ext_convertUTF */;
+			targetProxy = BA34D67291F342F5ADABBA4E /* PBXContainerItemProxy */;
+		};
+		AE4DF3D1C45744949E9E115F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339CFEA6C229DFD2C0DB7DCB /* ext_poly2tri */;
+			targetProxy = 207C3EED2DFE44349C44F9A3 /* PBXContainerItemProxy */;
+		};
+		AFA91C7E322E4273B6FBB378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29009F96BC6634827BF464DC /* external */;
+			targetProxy = 406536A478BA4E5E87F426EC /* PBXContainerItemProxy */;
+		};
+		AFE3C78C8FBB44968F9EC244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF81E539502ECFFAF8104DB2 /* ext_md5 */;
+			targetProxy = 0420993DAB4A4D71BDC65227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047197B9BD7E458A97AF5A16 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0781463653C1427FB516E671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0CF1D90960E2484AB116423B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0D4EFEFD5EBC471AA971A990 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		135F23C53B484459B2719CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		144A8AB33A374FC988A880A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		15C61BF330C345EC88B1E213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		170B502C020945F59AE981DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1A76C21A55E746C0BB8CCCB2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/Box2D/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/chipmunk/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/freetype2/include/mac/freetype2,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include/bullet,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/jpeg/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/openssl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/uv/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/webp/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/websockets/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/curl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/png/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glfw3/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1E5D9C8AA6FF432F9F79D507 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2094C417CA4D4A07BB72CE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2696D19B16154EFC9DFC8E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/Box2D/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/chipmunk/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/freetype2/include/mac/freetype2,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include/bullet,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/jpeg/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/openssl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/uv/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/webp/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/websockets/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/curl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/png/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glfw3/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		28E7F449BA434D788E5F421B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build;
+			};
+			name = Release;
+		};
+		29023CC23EBC4711A7CAEBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3332F5BEF3874B0EB6BDCDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3A39379FBED54CB1B3A05169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3F97C1AE642E4172B8A26F8C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		405B2DE057C644ECB8139B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		43D31D0836274F93A9ECE386 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		460A7158C775443E93C77CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		498F24F892DB4292A8A89530 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4A909B24140448D1BF24B510 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build;
+			};
+			name = MinSizeRel;
+		};
+		4BBBF0B550DB4750943101DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5A282F98E6D54F7288A17B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		69E58926826047479A1A2533 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6A26D8A14B374D488C79E96C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/Box2D/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/chipmunk/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/freetype2/include/mac/freetype2,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include/bullet,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/jpeg/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/openssl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/uv/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/webp/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/websockets/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/curl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/png/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glfw3/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6A8D9909273B41A2A71E215F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C1DAC57623F4ED0AE6472A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C5EF05B6659448385323B66 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		80DEDFF1F3394BBCB1E4A678 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8DA9867683214D73A4BEAD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/Box2D/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/chipmunk/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/freetype2/include/mac/freetype2,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/bullet/include/bullet,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/jpeg/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/openssl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/uv/include,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/webp/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/websockets/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/curl/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/png/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glfw3/include/mac,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8F3410597B9E464683F79426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		920ABCF39E4B4365921D177E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98D007A33E2842508B6E4FFD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9E6D196947A24159933A7BBA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A1483621745E4CF0A4BFF710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A692C7D341D24FBFA06E0E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A772D4775F994DC59812F85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B627EFA8C8C6491E9E315206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B83B7AEDE0354958911D45D9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BA9F03F6E6154D5D9FF43262 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C19F4D4934DC49F1B03254CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C67E5E794EF841E0BA6A8065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D1D4D5502D674250920267EE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D291CB2301D44149BF56B6FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D4239C71770D4DB2947F33E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E77F34A6501744C8B02EA801 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E7A76289A1514A10AB432610 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E9A462A434D6458C90964284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EBB2698720084DE1990146C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EF23D6BE972D4EA794283CCF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EF5D67654E5A4C3EA0839276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F23531DFC7B14254A52FEDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build;
+			};
+			name = Debug;
+		};
+		F476EDCED7AA4D9F81441A3F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FFF20E9A898140CBB7319429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FFF280A74D3045BBA7A29F49 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/unzip/.,/Users/ryanhur/Desktop/mobile_mania/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ryanhur/Desktop/mobile_mania/proj.ios_mac/mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EB60779726445895CCC276 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A692C7D341D24FBFA06E0E27 /* Debug */,
+				29023CC23EBC4711A7CAEBC1 /* Release */,
+				80DEDFF1F3394BBCB1E4A678 /* MinSizeRel */,
+				0D4EFEFD5EBC471AA971A990 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		037B914DEBBC4421B263298F /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2094C417CA4D4A07BB72CE62 /* Debug */,
+				EF5D67654E5A4C3EA0839276 /* Release */,
+				69E58926826047479A1A2533 /* MinSizeRel */,
+				E7A76289A1514A10AB432610 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1BD06A8375F04551AFFD6BF0 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781463653C1427FB516E671 /* Debug */,
+				405B2DE057C644ECB8139B03 /* Release */,
+				BA9F03F6E6154D5D9FF43262 /* MinSizeRel */,
+				B83B7AEDE0354958911D45D9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2744714DDDF04CF28A7F8F1C /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67E5E794EF841E0BA6A8065 /* Debug */,
+				15C61BF330C345EC88B1E213 /* Release */,
+				6C1DAC57623F4ED0AE6472A3 /* MinSizeRel */,
+				498F24F892DB4292A8A89530 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		393776301B7E42AFBCD340F0 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4239C71770D4DB2947F33E3 /* Debug */,
+				460A7158C775443E93C77CCA /* Release */,
+				6C5EF05B6659448385323B66 /* MinSizeRel */,
+				EF23D6BE972D4EA794283CCF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E3AF281F5C0426A9FEDD98A /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1483621745E4CF0A4BFF710 /* Debug */,
+				B627EFA8C8C6491E9E315206 /* Release */,
+				3F97C1AE642E4172B8A26F8C /* MinSizeRel */,
+				9E6D196947A24159933A7BBA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67311FFAC3954498BAF894B2 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39379FBED54CB1B3A05169 /* Debug */,
+				EBB2698720084DE1990146C0 /* Release */,
+				FFF280A74D3045BBA7A29F49 /* MinSizeRel */,
+				43D31D0836274F93A9ECE386 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84C3F0B6C64F41809C0192E9 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBBF0B550DB4750943101DE /* Debug */,
+				E9A462A434D6458C90964284 /* Release */,
+				1E5D9C8AA6FF432F9F79D507 /* MinSizeRel */,
+				E77F34A6501744C8B02EA801 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		932B0C0F04644B86A7A5A929 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3332F5BEF3874B0EB6BDCDAC /* Debug */,
+				A772D4775F994DC59812F85D /* Release */,
+				6A8D9909273B41A2A71E215F /* MinSizeRel */,
+				D1D4D5502D674250920267EE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA3B0FA179E5483F8FEDC111 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19F4D4934DC49F1B03254CD /* Debug */,
+				8F3410597B9E464683F79426 /* Release */,
+				0CF1D90960E2484AB116423B /* MinSizeRel */,
+				F476EDCED7AA4D9F81441A3F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C00466A293294CC993BBF6F8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170B502C020945F59AE981DB /* Debug */,
+				135F23C53B484459B2719CD1 /* Release */,
+				98D007A33E2842508B6E4FFD /* MinSizeRel */,
+				920ABCF39E4B4365921D177E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC5F89D677454979B9551305 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A282F98E6D54F7288A17B2B /* Debug */,
+				FFF20E9A898140CBB7319429 /* Release */,
+				047197B9BD7E458A97AF5A16 /* MinSizeRel */,
+				D291CB2301D44149BF56B6FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6AB96947007403D8CD807FF /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23531DFC7B14254A52FEDCF /* Debug */,
+				28E7F449BA434D788E5F421B /* Release */,
+				4A909B24140448D1BF24B510 /* MinSizeRel */,
+				144A8AB33A374FC988A880A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBDD8FDAA47A4856A77E9301 /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA9867683214D73A4BEAD9E /* Debug */,
+				2696D19B16154EFC9DFC8E29 /* Release */,
+				6A26D8A14B374D488C79E96C /* MinSizeRel */,
+				1A76C21A55E746C0BB8CCCB2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7AF34236E3428CB2714ACE /* Project object */;
+}
